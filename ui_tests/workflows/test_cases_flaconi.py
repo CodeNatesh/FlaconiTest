@@ -5,7 +5,7 @@ Description:
 Execution Frequency:
     Daily
 
-Exclude OS:
+Executioin in OS:
     Mac
     Linux
     windows
