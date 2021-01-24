@@ -23,10 +23,6 @@ import pytest
 import requests
 import logging
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from ui_tests.page_objects.fl_page_objects import FlaconiPage
 
 
@@ -56,6 +52,7 @@ def test_select_random_product(logged_in_driver):
         4. click on the add to cart button
 
     """
+
     driver = logged_in_driver
     flaconi_page = FlaconiPage(driver=logged_in_driver)
 
@@ -119,6 +116,7 @@ def test_verify_price_of_the_product(logged_in_driver):
         3. Compare the price and product name of the randomly selected item
 
     """
+
     driver = logged_in_driver
     flaconi_page = FlaconiPage(driver=logged_in_driver)
     flaconi_page.warenkorb_button.click()
