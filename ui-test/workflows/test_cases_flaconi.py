@@ -17,15 +17,16 @@ def pytest_namespace2():
 
 @pytest.mark.ui_test
 def test_select_random_product(logged_in_driver):
-    """This test will verify automox supported checkbox is true if checked and false if unchecked.
+    """This test will verify the random selected product from the flaconi application.
 
     Args:
-        logged_in_driver (SoftwarePage): Fixture that ensures the test is on the software page
+        logged_in_driver (flaconi main page): Fixture that ensures the will navigates to the flaconi application
 
     Steps:
-        1. Navigate to the software page
-        2. click on the automox supported checkbox
-        3. Validate the URL has the automox supported true and false
+        1. Navigate to the flaconi page
+        2. Randomly select the product and click on the product
+        3. Select the quantity of the product
+        4. click on the add to cart button
 
     """
 
@@ -83,15 +84,16 @@ def test_select_random_product(logged_in_driver):
 
 @pytest.mark.ui_test
 def test_verify_price_of_the_product(logged_in_driver):
-    """This test will verify automox supported checkbox is true if checked and false if unchecked.
+    """This test will verify the random selected product from the flaconi application.
 
     Args:
-        logged_in_driver (SoftwarePage): Fixture that ensures the test is on the software page
+        logged_in_driver (flaconi main page): Fixture that ensures the will navigates to the flaconi application
 
     Steps:
-        1. Navigate to the software page
-        2. click on the automox supported checkbox
-        3. Validate the URL has the automox supported true and false
+        1. Navigate to the flaconi page
+        2. Randomly select the product and click on the product
+        3. Select the quantity of the product
+        4. click on the add to cart button
 
     """
     driver = logged_in_driver
@@ -113,15 +115,16 @@ def test_verify_price_of_the_product(logged_in_driver):
 
 @pytest.mark.ui_test
 def test_verify_main_navigation_menu_links(logged_in_driver):
-    """This test will verify automox supported checkbox is true if checked and false if unchecked.
+    """This test will verify the random selected product from the flaconi application.
 
     Args:
-        logged_in_driver (SoftwarePage): Fixture that ensures the test is on the software page
+        logged_in_driver (flaconi main page): Fixture that ensures the will navigates to the flaconi application
 
     Steps:
-        1. Navigate to the software page
-        2. click on the automox supported checkbox
-        3. Validate the URL has the automox supported true and false
+        1. Navigate to the flaconi page
+        2. Randomly select the product and click on the product
+        3. Select the quantity of the product
+        4. click on the add to cart button
 
     """
 
